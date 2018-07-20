@@ -19,6 +19,16 @@ On your Mac, look for a notification with a numeric code ③.
 
 SMS messages sent to your iPhone should now be sent to your Mac, too.
 
+## Formatting the Excel file
+In order to send bulk messages, you will have to list all your contacts in an Excel. The structure has to be exactly like this:
+
+| firstname  | lastname | telephone | position | available_at |
+| -----------| ---------|-----------|----------|--------------|
+| Ilyas  | Deckers  | 32466385323 | JavaScript Developer | 01-01-2018 |
+| John  | Doe  | 32472756985 | PHP Developer | 05-03-2018 |
+
+ > ***Note:*** if the available_at date is greater then the current date, the text message will not be sent. 
+
 ## Development
 This application's structure is quite basic. The main logic can be found in `app\LandingPage.vue`. Happy coding! :)
 ### Build Setup
@@ -42,6 +52,3 @@ npm run lint
 
 ```
 
----
-
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[4c6ee7b](https://github.com/SimulatedGREG/electron-vue/tree/4c6ee7bf4f9b4aa647a22ec1c1ca29c2e59c3645) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
