@@ -1,0 +1,20 @@
+.dropdown-menu {
+  @apply .bg-white .border .shadow-lg .w-3/5 .text-center .rounded ;
+}
+
+.menu-button {
+  @apply .rounded-full .text-center .p-3 .bg-white .text-black .shadow-lg .w-12 .h-12 ;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 87%;
+  right: 7%;
+  z-index: 99;
+}
+#topMenu {
+  position: fixed;
+  bottom: 56%;
+  right: 7%;
+  z-index: 99;
+}
