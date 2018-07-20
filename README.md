@@ -1,8 +1,27 @@
-# sendit
+# SendIt
 
-> An electron-vue project
+> Send bulk text messages using iMessage
 
-#### Build Setup
+***Disclaimer:*** This project only works with Apple devices that have iMessage configured properly. iMessage has to be able to forward send text messages from and to your phone. 
+
+## Installing SendIt
+To start using SendIt first, download the executable from the releases page. Before running the application please make sure your iMessage is set up correctly on your MacBook and iPhone.
+
+## Setting up iMessage text forwarding
+1. Make sure your Mac and iPhone are signed in to iMessage with the same Apple ID. On the Mac, you do this in Messages > Preferences. On an iOS device, tap Settings > Messages.
+
+2. On your iPhone, tap Settings > Messages > Text Message Forwarding. Toggle the switch next to your Mac’s name to On.
+On your Mac, look for a notification with a numeric code ③.
+3. Look for a verification code on your Mac.
+> Tip: If the verification code doesn’t appear, sign out of iMessage on your Mac and iPhone, sign back in, and then try the setup process again.
+
+4. Enter the code on your iPhone.
+
+SMS messages sent to your iPhone should now be sent to your Mac, too.
+
+## Development
+This application's structure is quite basic. The main logic can be found in `app\LandingPage.vue`. Happy coding! :)
+### Build Setup
 
 ``` bash
 # install dependencies
