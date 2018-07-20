@@ -27,10 +27,10 @@ In order to send bulk messages, you will have to list all your contacts in an Ex
 | Ilyas  | Deckers  | 32466385323 | JavaScript Developer | 01-01-2018 |
 | John  | Doe  | 32472756985 | PHP Developer | 05-03-2018 |
 
- > ***Note:*** if the available_at date is greater then the current date, the text message will not be sent. 
+ > ***Note:*** if the available_at date is greater then the current date, the text message will not be sent. if left empty, a message will be sent
 
 ## Development
-This application's structure is quite basic. The main logic can be found in `app\LandingPage.vue`. Happy coding! :)
+The application's structure is quite basic. The main logic can be found in `app\LandingPage.vue`. Happy coding! :)
 ### Build Setup
 
 ``` bash
